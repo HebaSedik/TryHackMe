@@ -1,12 +1,12 @@
-#Task 1 Deploy 
+# Task 1 Deploy 
 No answer needed
 
-#Task 2 Introduction 
+# Task 2 Introduction 
 1- What networking constructs are used to direct traffic to the right application on a server? ports 
 2- How many of these are available on any network-enabled computer? 65535 
 3- How many of these are considered "well-known"? (These are the "standard" numbers mentioned in the task) 1024
 
-#Task 3 Nmap Switches 
+# Task 3 Nmap Switches 
 1-What is the first switch listed in the help menu for a 'Syn Scan' (more on this later!)? -sS 
 2- Which switch would you use for a "UDP scan"? -sU 
 3- If you wanted to detect which operating system the target is running on, which switch would you use? -o 
@@ -24,13 +24,15 @@ No answer needed
 15- How would you activate a script from the nmap scripting library (lots more on this later!)? --script 
 16- How would you activate all of the scripts in the "vuln" category? --script=vuln
 
-#Task 4 Overview 
+# Task 4 Overview 
 No answer needed
 
-#Task 5 TCP Connect Scans 
+# Task 5 TCP Connect Scans 
 1- Which RFC defines the appropriate behaviour for the TCP protocol? RFC 9293 
 2- If a port is closed, which flag should the server send back to indicate this? RST
 
-#Task 6 SYN Scans 1- There are two other names for a SYN scan, what are they? Half-open,Stealth 2- Can Nmap use a SYN scan without Sudo permissions (Y/N)? N
+ # Task 6 SYN Scans 
+1- There are two other names for a SYN scan, what are they? Half-open,Stealth 
+2- Can Nmap use a SYN scan without Sudo permissions (Y/N)? N
 
-Task 7 UDP Scans
+# Task 7 UDP Scans
